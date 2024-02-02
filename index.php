@@ -18,6 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //     $templateProcessor->setImageValue($imageName, $imageContent, ['width' => 80, 'height' => 80]);
     // }
 
+
+    
     // Получаем данные из запроса (в данном случае, просто пример данных)
     $Name = $_POST['name'];
     $currentDate = date('d F Y'); // Текущая дата в формате "день месяц год"
